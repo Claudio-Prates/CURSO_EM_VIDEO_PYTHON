@@ -1,7 +1,6 @@
-valor_reais = float(input('Digite o valor em Reais: '))
-
-taxa_cambio = 4.9962
-valor_dolar = valor_reais / taxa_cambio
-
-print("O valor equivalente em Dólar é: {:.2f}".format(valor_dolar))
+valor_reais = float(input('Quanto dinheiro você na carteira: R$ '))
+valor_dolar = valor_reais / 3.27
+valor_euro = valor_reais / 5.43
+print("Com R${:.2f} você consegue comprar U$${:.2f}".format(valor_reais, valor_dolar))
+print("Com R${:.2f} você consegue comprar €{:.2f}".format(valor_reais, valor_euro))
 
