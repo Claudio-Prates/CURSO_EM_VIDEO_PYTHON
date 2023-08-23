@@ -1,5 +1,5 @@
-prod = float(input('Digite o valor do produto: '))
+salário = float(input('Qual o salário do funcionário: '))
 
-valor_desconto = prod +  (prod * 5/100)
+valor_desconto = salário +  (salário * 15/100)
 
-print('O produto que custava R${:.2f}, na promoção com desconto de 5% vai custar R${:.2f}'.format(prod,valor_desconto))
+print('Um funcionário que ganhava R${:.2f} com 15% de aumento, passa a ganhar R${:.2f}'.format(salário,valor_desconto))
